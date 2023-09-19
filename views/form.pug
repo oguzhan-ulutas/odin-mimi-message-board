@@ -4,10 +4,10 @@ block content
     h1= title
     
     form(method="POST", action="/new")
-        div
+        div.name-input
             label(for="name") Name:
             input(type="text", id="form-name", name="name")
-        div
+        div.message-input
             label(for="message") Message:
             input(type="text", id="form-message", name="message")
         div

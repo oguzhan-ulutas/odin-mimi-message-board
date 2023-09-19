@@ -1,8 +1,45 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2vh;
+}
+
+.message {
+  box-shadow: 0px 5px 5px 5px rgb(118, 127, 166, 0.5);
+  padding: 2vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2vh;
+}
+#form-message {
+  width: 100%;
+  height: 10vh;
+}
+.name-input,
+.message-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1vh;
+}
+button {
+  border: none;
+  border-radius: 1vh;
+  width: 100%;
+  height: 5vh;
+  background-color: chocolate;
 }
